@@ -52,11 +52,12 @@ JWT_SECRET=your_secret_key
 IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
 IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
 IMAGEKIT_URL_ENDPOINT=your_imagekit_endpoint
-PORT=5000
+
 ```
 
 Client `.env`:
 ```
+VITE_CURRENCY=$
 VITE_API_BASE_URL=http://localhost:5000
 ```
 
